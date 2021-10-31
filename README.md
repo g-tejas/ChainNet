@@ -80,7 +80,7 @@ these two groups, we gain measurable insights that show us when macros trend shi
 Chain Net is built on a risk oscillator metric which aggregates multiple on-chain and price data, and is normalized into [0, 1] range. 0 being very low risk and 1 being extremely high risk. It gives a rough gauge of how far Bitcoin is from it's market cycle peak and bottom. 
 
 Currently, the metrics involved are,
-  
+
 | Metric | Included in final calculation | Build status |
 |--------|:-------------:|:---:|
 | Mayer Multiple | ✅ | ✅ |
@@ -91,8 +91,6 @@ Currently, the metrics involved are,
 |Power Law  | ✅ | ✅ |
 |400D MA| ✅ | ✅ |
 | Supply Delta| ❌ | ❌ |
-
-
 
 
 The risk metric is then used in a trading strategy, which is a work in progress. We will post
