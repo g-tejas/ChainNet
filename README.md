@@ -127,13 +127,13 @@ the results soon.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Telegram Bot 
-  - [] Provide Hourly/Daily/Weekly notifications on risk levels
-- [] For runnning the code locally, include pyfiglet to display risk level when started up. 
-- [] Include on-chain metrics in the model 
-    - [] [Supply Delta](https://medium.com/capriole/a-simple-metric-to-identify-bitcoin-tops-999232e96dc0)
-    - [] Stock-to-flow model?
-- [] Connect to FTX to place trades?
+- [ ] Telegram Bot 
+  - [ ] Provide Hourly/Daily/Weekly notifications on risk levels
+- [ ] For runnning the code locally, include pyfiglet to display risk level when started up. 
+- [ ] Include on-chain metrics in the model 
+    - [ ] [Supply Delta](https://medium.com/capriole/a-simple-metric-to-identify-bitcoin-tops-999232e96dc0)
+    - [ ] Stock-to-flow model?
+- [ ] Connect to FTX to place trades?
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
