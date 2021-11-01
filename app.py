@@ -10,6 +10,7 @@ import yfinance as yf
 from annotated_text import annotated_text, annotation
 from htbuilder import h1
 st.set_page_config(layout="wide")
+
 @st.cache(allow_output_mutation=True)
 def load_data():
     df = quandl.get("BCHAIN/MKPRU", api_key="FYzyusVT61Y4w65nFESX").reset_index()
@@ -152,3 +153,4 @@ annotated_text(
     ("this", "", "#8ef"),
     " is neutral risk ",
 )
+print(df[['Date', 'PuellMultiple']])
